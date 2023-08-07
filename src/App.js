@@ -1,7 +1,9 @@
+import { Components } from './shared';
+
 function App() {
     return (
         <div className="App">
-            <p className="text-green-600 flex container">123</p>
+            <Components.Header />
         </div>
     );
 }
