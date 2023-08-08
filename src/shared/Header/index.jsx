@@ -6,7 +6,7 @@ const Header = () => {
     const links = ['Gallery', 'Prices for services', 'About us', 'Contact'];
 
     return (
-        <div className="py-8">
+        <div className="py-8 fixed top-0 left-0 w-full">
             <div className="container flex justify-between items-center">
                 <div>
                     <img src={Logo} alt="" className="w-48" />
