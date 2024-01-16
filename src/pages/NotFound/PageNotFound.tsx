@@ -7,9 +7,9 @@ export default function PageNotFound() {
       <img
         src={WoodImage}
         alt=""
-        className="brightness-50 max-h-screen fixed top-0 left-0 select-none"
+        className="brightness-50 max-h-screen fixed top-0 left-0 select-none z-[-1]"
       />
-      <div className="absolute flex flex-col items-center">
+      <div className="flex flex-col items-center">
         <p className="text-white text-[20rem] leading-tight">404</p>
         <div className="space-y-5 flex flex-col items-center">
           <p className="text-white text-7xl">Woops</p>
