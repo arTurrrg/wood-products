@@ -16,7 +16,7 @@ export default function PageNotFound() {
           <p className="text-[#FFDBBB] text-2xl">
             Oh, you must be lost, there is no such page.
           </p>
-          <ButtonLink message="Go to the home page" />
+          <ButtonLink message="Go to the home page" url="/" />
         </div>
       </div>
     </div>
