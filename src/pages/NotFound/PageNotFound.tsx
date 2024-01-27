@@ -3,7 +3,7 @@ import ButtonLink from '@/shared/components/ButtonLink';
 
 export default function PageNotFound() {
   return (
-    <div className="container relative flex justify-center items-center h-full min-h-screen">
+    <div className="container  flex justify-center items-center h-full min-h-screen">
       <img
         src={WoodImage}
         alt=""

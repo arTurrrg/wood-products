@@ -21,7 +21,7 @@ export default function LeftProductsCard() {
           </div>
         </div>
       </div>
-      <div className="my-10">
+      <div className="mt-10">
         <ButtonLink message="Order" url="/" />
       </div>
     </div>
