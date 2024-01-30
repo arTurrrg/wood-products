@@ -3,7 +3,7 @@ export default function LeftAboutCard() {
     <div className="flex-1">
       <div className="pl-44 text-neutral-100 leading-normal">
         <p className="text-7xl font-[KyivTypeSans]">ABOUT US</p>
-        <div className="pt-12 pl-2 text-xl">
+        <div className="pt-20 pl-2 text-2xl">
           <p>BIO CWT - We manufacture solid</p>
           <p>wood products according to</p>
           <p>individual drawings. We make</p>

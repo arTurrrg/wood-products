@@ -3,6 +3,7 @@ import HomeProductsCard from './HomeProductsCard/HomeProductsCard';
 import HomeGallery from '@/shared/components/HomeGallery/HomeGallery';
 import HomeAdvantagesWorkingWithUs from './HomeAdvantagesWorkingWithUs/HomeAdvantagesWorkingWithUs';
 import HomeAbout from '@/shared/components/HomeAbout/HomeAbout';
+import HomeContact from '@/shared/components/HomeContact/HomeContact';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <HomeGallery />
       <HomeAdvantagesWorkingWithUs />
       <HomeAbout />
+      <HomeContact />
     </div>
   );
 }
