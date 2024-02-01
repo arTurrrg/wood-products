@@ -4,6 +4,7 @@ import HomeGallery from '@/shared/components/HomeGallery/HomeGallery';
 import HomeAdvantagesWorkingWithUs from './HomeAdvantagesWorkingWithUs/HomeAdvantagesWorkingWithUs';
 import HomeAbout from '@/shared/components/HomeAbout/HomeAbout';
 import HomeContact from '@/shared/components/HomeContact/HomeContact';
+import Footer from '@/shared/components/Footer/footer';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <HomeAdvantagesWorkingWithUs />
       <HomeAbout />
       <HomeContact />
+      <Footer />
     </div>
   );
 }
