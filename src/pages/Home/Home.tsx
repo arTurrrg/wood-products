@@ -4,7 +4,7 @@ import HomeGallery from '@/shared/components/HomeGallery/HomeGallery';
 import HomeAdvantagesWorkingWithUs from './HomeAdvantagesWorkingWithUs/HomeAdvantagesWorkingWithUs';
 import HomeAbout from '@/shared/components/HomeAbout/HomeAbout';
 import HomeContact from '@/shared/components/HomeContact/HomeContact';
-import Footer from '@/shared/components/Footer/footer';
+import Footer from '@/shared/components/Footer/Footer';
 
 export default function Home() {
   return (

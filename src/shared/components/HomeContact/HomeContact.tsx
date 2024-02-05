@@ -7,7 +7,7 @@ export default function HomeContact() {
       <p className="text-neutral-100 text-7xl font-[KyivTypeSans] flex justify-end">
         ANY QUESTIONS?
       </p>
-      <div className="flex justify-end space-x-36">
+      <div className="flex justify-end space-x-10">
         <div>
           <div className="mx-auto max-w-[400px] mt-10 space-y-5">
             <input
@@ -34,7 +34,7 @@ export default function HomeContact() {
           <p>Write to us and we will be sure to</p>
           <p>answer all your questions and give</p>
           <p>you a comprehensive consultation.</p>
-          <div className="flex justify-end pt-24">
+          <div className="flex justify-end relative top-40">
             <img src={Wood} alt="" className="w-[477px] h-[482px]" />
           </div>
         </div>

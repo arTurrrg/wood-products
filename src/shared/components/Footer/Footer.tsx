@@ -1,10 +1,29 @@
 import Logo from '@/assets/images/logo.png';
+import { MapPin, PhoneCall } from 'lucide-react';
 
-export default function Footer() {
+export default function footer() {
   return (
-    <div className="bg-[#1d1c1c] relative">
-      <div className="container flex justify-between items-center my-16">
-        <img src={Logo} alt="" />
+    <div>
+      <div className="bg-[#1d1c1c] shadow-inner drop-shadow-glow">
+        <div className="container py-7">
+          <div className="flex items-center justify-between text-neutral-100 text-2xl">
+            <img src={Logo} alt="" />
+            <div className="flex items-center">
+              <PhoneCall className="size-10 mr-2" />
+              <div>
+                <p>+420 000 000 000</p>
+              </div>
+            </div>
+            <div className="flex items-center">
+              <MapPin className="size-10 mr-2" />
+              <div>
+                <p>Na Plzeňce 1166/0</p>
+                <p>150 00</p>
+              </div>
+            </div>
+          </div>
+          <p className="text-neutral-100 py-12">Privacy Policy</p>
+        </div>
       </div>
     </div>
   );
