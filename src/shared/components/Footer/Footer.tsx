@@ -4,7 +4,7 @@ import { MapPin, PhoneCall } from 'lucide-react';
 export default function footer() {
   return (
     <div>
-      <div className="bg-[#1d1c1c] shadow-inner drop-shadow-glow">
+      <div className="bg-blackSoft shadow-inner drop-shadow-glow">
         <div className="container py-7">
           <div className="flex items-center justify-between text-neutral-100 text-2xl">
             <img src={Logo} alt="" />

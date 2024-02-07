@@ -1,10 +1,10 @@
 import ButtonLink from '../ButtonLink';
 import Wood from '@/assets/images/wood.png';
 
-export default function HomeContact() {
+export default function Contact() {
   return (
     <div className="container pt-20">
-      <p className="text-neutral-100 text-7xl font-[KyivTypeSans] flex justify-end">
+      <p className="text-neutral-100 text-7xl font-kyiv flex justify-end">
         ANY QUESTIONS?
       </p>
       <div className="flex justify-end space-x-10">
@@ -13,17 +13,17 @@ export default function HomeContact() {
             <input
               type="text"
               placeholder="Your name"
-              className="border-2 border-[#728BAD] text-[#d9d9d982] text-2xl bg-transparent outline-none w-full rounded-full px-5 py-2"
+              className="border-2 border-shadowBlue text-silver text-2xl bg-transparent outline-none w-full rounded-full px-5 py-2"
             />
             <input
               type="tel"
               placeholder="Your telephone number"
-              className="border-2 border-[#728BAD] text-[#d9d9d982] text-2xl bg-transparent outline-none w-full rounded-full px-5 py-2"
+              className="border-2 border-shadowBlue text-silver text-2xl bg-transparent outline-none w-full rounded-full px-5 py-2"
             />
             <textarea
               rows={6}
               placeholder="Your Question"
-              className="border-2 border-[#728BAD] text-[#d9d9d982] text-2xl bg-transparent outline-none w-full rounded-3xl px-5 py-2  resize-none"
+              className="border-2 border-shadowBlue text-silver text-2xl bg-transparent outline-none w-full rounded-3xl px-5 py-2  resize-none"
             ></textarea>
             <div>
               <ButtonLink message={'Send'} url={'/'} />

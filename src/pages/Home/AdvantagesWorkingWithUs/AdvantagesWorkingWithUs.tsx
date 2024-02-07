@@ -1,10 +1,10 @@
 import Video from '@/assets/images/video.png';
 import ButtonLink from '@/shared/components/ButtonLink';
 
-export default function HomeAdvantagesWorkingWithUs() {
+export default function AdvantagesWorkingWithUs() {
   return (
     <div className="flex flex-col items-center">
-      <div className="text-7xl text-neutral-100 font-[KyivTypeSans] pr-8 pt-48 space-y-5">
+      <div className="text-7xl text-neutral-100 font-kyiv pr-8 pt-48 space-y-5">
         <p>ADVANTAGES</p>
         <p>WORKING WITH US</p>
       </div>
@@ -20,7 +20,7 @@ export default function HomeAdvantagesWorkingWithUs() {
           <p>no extra charges</p>
         </div>
       </div>
-      <ButtonLink message="Receive a consultation" url={''} />
+      <ButtonLink message="Receive a consultation" url={'#'} />
     </div>
   );
 }

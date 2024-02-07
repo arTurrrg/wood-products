@@ -21,7 +21,7 @@ export default function Header() {
 
   return (
     <div
-      className={`py-8 fixed top-0 left-0 w-full z-10 ${isBlur ? 'backdrop-blur-md' : ''}`}
+      className={`py-8 fixed top-0 left-0 w-full z-10 ${isBlur && 'backdrop-blur-md'}`}
     >
       <div className="container flex justify-between items-center">
         <Link to="/">

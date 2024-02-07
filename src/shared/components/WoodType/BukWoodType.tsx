@@ -8,16 +8,12 @@ export default function BukWoodsType() {
       <div className="space-y-2 text-white text-lg">
         <p className="text-lg font-bold pl-14 pt-5 pb-5">Buk</p>
         <div className="flex items-center space-x-1">
-          <Check className="inline text-[#FFC099]" />
-          <div>
-            <p>Durability</p>
-          </div>
+          <Check className="text-[#FFC099]" />
+          <p>Durability</p>
         </div>
         <div className="flex items-center space-x-1">
-          <X className="inline text-[#FFC099]" />
-          <div>
-            <p>Hard to handle</p>
-          </div>
+          <X className="text-[#FFC099]" />
+          <p>Hard to handle</p>
         </div>
       </div>
     </div>

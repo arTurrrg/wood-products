@@ -1,10 +1,11 @@
 import WoodImage from '@/assets/images/wood-image.png';
 import HomeProductsCard from './HomeProductsCard/HomeProductsCard';
-import HomeGallery from '@/shared/components/HomeGallery/HomeGallery';
-import HomeAdvantagesWorkingWithUs from './HomeAdvantagesWorkingWithUs/HomeAdvantagesWorkingWithUs';
-import HomeAbout from '@/shared/components/HomeAbout/HomeAbout';
-import HomeContact from '@/shared/components/HomeContact/HomeContact';
+import Contact from '@/shared/components/Contact/Contact';
 import Footer from '@/shared/components/Footer/Footer';
+import AboutUs from '@/shared/components/AboutUs/AboutUs';
+import AdvantagesWorkingWithUs from './AdvantagesWorkingWithUs/AdvantagesWorkingWithUs';
+import OurWork from '@/shared/components/OurWork/OurWork';
+import WoodType from '@/shared/components/WoodType/WoodType';
 
 export default function Home() {
   return (
@@ -15,10 +16,11 @@ export default function Home() {
         className="brightness-50 max-h-screen absolute top-0 left-0 select-none z-[-1]"
       />
       <HomeProductsCard />
-      <HomeGallery />
-      <HomeAdvantagesWorkingWithUs />
-      <HomeAbout />
-      <HomeContact />
+      <WoodType />
+      <OurWork />
+      <AdvantagesWorkingWithUs />
+      <AboutUs />
+      <Contact />
       <Footer />
     </div>
   );

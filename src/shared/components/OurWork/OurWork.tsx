@@ -1,9 +1,9 @@
 import ModernKitchen from '@/assets/images/modern-kitchen.png';
 import { MoveLeft, MoveRight, Circle } from 'lucide-react';
-export default function HomeOurWork() {
+export default function OurWork() {
   return (
     <div className="flex flex-col items-center">
-      <div className="text-7xl text-neutral-100 font-[KyivTypeSans] pr-72 pt-48">
+      <div className="text-7xl text-neutral-100 font-kyiv pr-72 pt-48">
         <p>OUR WORK</p>
       </div>
       <div className="flex items-center pt-24 space-x-6">

@@ -8,6 +8,6 @@ body {
 }
 
 @font-face {
-  font-family: 'KyivTypeSans';
-  src: url('./fonts/kyivtypemedium.otf') format(opentype);
+  font-family: 'Kyiv';
+  src: url('./fonts/kyivtypemedium.otf');
 }

@@ -5,13 +5,13 @@ export default function LeftProductsCard() {
     <div className="flex-1">
       <div className="border-r border-neutral-100">
         <div className="pr-10">
-          <div className="text-7xl font-[KyivTypeSans] text-neutral-100 leading-tight">
+          <div className="text-7xl font-kyiv text-neutral-100 leading-tight">
             <p>SOLID</p>
             <p>WOOD</p>
             <p>PRODUCTS</p>
           </div>
           <div className="mt-7">
-            <div className="text-2xl text-[#FFDBBB]">
+            <div className="text-2xl text-peach">
               <p>Oak, beech, ash from</p>
               <div>
                 <span className="font-semibold">1700 CZK</span>
