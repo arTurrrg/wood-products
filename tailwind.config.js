@@ -5,8 +5,13 @@ export default {
     extend: {
       colors: {
         peach: '#FFDBBB',
+        peachOrange: '#FFC099',
         blackSoft: '#1C1D1D',
+        azureWhite: '#D5DCEE',
         shadowBlue: '#728BAD',
+        electricBlue: '#576b86',
+        wildBlue: '#A3B8D7',
+        lightBlue: '#7ca8eb',
         darkRed: '#1E0C06',
         silver: '#d9d9d982',
       },

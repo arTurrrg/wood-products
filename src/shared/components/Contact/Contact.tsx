@@ -26,7 +26,7 @@ export default function Contact() {
               className="border-2 border-shadowBlue text-silver text-2xl bg-transparent outline-none w-full rounded-3xl px-5 py-2  resize-none"
             ></textarea>
             <div>
-              <ButtonLink message={'Send'} url={'/'} />
+              <ButtonLink message="Send" url="/" />
             </div>
           </div>
         </div>

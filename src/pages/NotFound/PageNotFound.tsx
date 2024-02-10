@@ -13,7 +13,7 @@ export default function PageNotFound() {
         <p className="text-white text-[20rem] leading-tight">404</p>
         <div className="space-y-5 flex flex-col items-center">
           <p className="text-white text-7xl">Woops</p>
-          <p className="text-[#FFDBBB] text-2xl">
+          <p className="text-peach text-2xl">
             Oh, you must be lost, there is no such page.
           </p>
           <ButtonLink message="Go to the home page" url="/" />

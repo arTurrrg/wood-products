@@ -8,11 +8,11 @@ export default function AshWoodsType() {
       <div className="space-y-2 text-white text-lg">
         <p className="text-lg font-bold pl-14 pt-5 pb-5">Ash</p>
         <div className="flex items-center space-x-1">
-          <Check className="text-[#FFC099]" />
+          <Check className="text-peachOrange" />
           <p>Durability</p>
         </div>
         <div className="flex items-center space-x-1">
-          <X className="text-[#FFC099]" />
+          <X className="text-peachOrange" />
           <p>Hard to handle</p>
         </div>
       </div>

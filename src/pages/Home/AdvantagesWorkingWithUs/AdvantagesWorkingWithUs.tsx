@@ -20,7 +20,7 @@ export default function AdvantagesWorkingWithUs() {
           <p>no extra charges</p>
         </div>
       </div>
-      <ButtonLink message="Receive a consultation" url={'#'} />
+      <ButtonLink message="Receive a consultation" url="/" />
     </div>
   );
 }
