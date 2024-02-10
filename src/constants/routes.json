@@ -1,22 +1,22 @@
 [
-    {
-        "title": "Home",
-        "url": "/"
-    },
-    {
-        "title": "Gallery",
-        "url": "/gallery"
-    },
-    {
-        "title": "Prices for services",
-        "url": "/prices-for-services"
-    },
-    {
-        "title": "About us",
-        "url": "/about-us"
-    },
-    {
-        "title": "Contacts",
-        "url": "/contacts"
-    }
+  {
+    "title": "Home",
+    "url": "/"
+  },
+  {
+    "title": "Gallery",
+    "url": "/gallery"
+  },
+  {
+    "title": "Prices for services",
+    "url": "/prices-for-services"
+  },
+  {
+    "title": "About us",
+    "url": "/about-us"
+  },
+  {
+    "title": "Contact",
+    "url": "/contact"
+  }
 ]

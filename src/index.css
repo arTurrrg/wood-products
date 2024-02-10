@@ -6,3 +6,8 @@ body {
   font-family: 'Inter', sans-serif;
   background: #222021;
 }
+
+@font-face {
+  font-family: 'Kyiv';
+  src: url('./fonts/kyivtypemedium.otf');
+}
