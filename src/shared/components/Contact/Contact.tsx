@@ -3,7 +3,7 @@ import Wood from '@/assets/images/wood.png';
 
 export default function Contact() {
   return (
-    <div className="container pt-20">
+    <div className="container pt-48">
       <p className="text-neutral-100 text-7xl font-kyiv flex justify-end">
         ANY QUESTIONS?
       </p>
