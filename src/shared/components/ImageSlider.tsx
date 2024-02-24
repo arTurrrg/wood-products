@@ -33,7 +33,7 @@ export function ImageSlider({ imageUrls }: ImageSliderProps) {
           <MoveRight className="text-wildBlue hover:text-lightBlue size-12" />
         </button>
       </div>
-      <div className="flex items-center justify-center pt-4 space-x-4">
+      <div className="flex items-center justify-center pt-4 pl-12 space-x-4">
         {imageUrls.map((_, index) => (
           <button key={index} onClick={() => setImageIndex(index)}>
             {index === imageIndex ? (
