@@ -1,10 +1,20 @@
-import { useState, useEffect } from 'react';
 import Logo from '@/assets/images/logo.png';
+import { useEffect, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import NavbarLinks from './NavbarLinks';
-import { Link } from 'react-router-dom';
 
 export default function Header() {
   const [isBlur, setIsBlur] = useState(false);
+  const [isHeaderInPath, setIsHeaderInPath] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => {
+    setIsHeaderInPath(
+      ['/gallery', '/prices-for-services', '/about-us', '/contact'].includes(
+        location.pathname,
+      ),
+    );
+  }, [location.pathname]);
 
   useEffect(() => {
     const Scroll = () => {
@@ -21,7 +31,7 @@ export default function Header() {
 
   return (
     <div
-      className={`py-8 fixed top-0 left-0 w-full z-10 ${isBlur && 'backdrop-blur-md'}`}
+      className={`${isHeaderInPath && 'bg-darkRed shadow-sm drop-shadow-glow'} ${isBlur && 'bg-darkRed/40'} py-8 fixed top-0 left-0 w-full z-10 rounded-b-[60px]`}
     >
       <div className="container flex justify-between items-center">
         <Link to="/">
