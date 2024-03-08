@@ -1,4 +1,5 @@
 import routes from '@/constants/routes.json';
+import AboutUsPage from '@/pages/AboutUs/AboutUs';
 import Gallery from '@/pages/Gallery/Gallery';
 import Home from '@/pages/Home/Home';
 import PageNotFound from '@/pages/NotFound/PageNotFound';
@@ -14,7 +15,7 @@ export const useRoutes = () => {
       <Route path={home.url} element={<Home />} />
       <Route path={gallery.url} element={<Gallery />} />
       <Route path={pricesForServices.url} element={<PricesForServices />} />
-      {/* <Route path={aboutUs.url} element={<AboutUs />} /> */}
+      <Route path={aboutUs.url} element={<AboutUsPage />} />
       {/* <Route path={contacts.url} element={<Contact />} /> */}
     </Routes>
   );
