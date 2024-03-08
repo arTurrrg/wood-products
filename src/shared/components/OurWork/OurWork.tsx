@@ -1,7 +1,7 @@
 import ModernKitchen1 from '@/assets/images/modern-kitchen.png';
 import ModernKitchen2 from '@/assets/images/modern-kitchen.png';
 import ModernKitchen3 from '@/assets/images/modern-kitchen.png';
-import { ImageSlider } from './ImageSlider';
+import { ImageSlider } from '../ImageSlider';
 
 const images = [ModernKitchen1, ModernKitchen2, ModernKitchen3];
 
